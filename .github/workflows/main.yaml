@@ -103,6 +103,10 @@ jobs:
     - name : install DLang
       run : sudo snap install dmd --classic
 
-   # Runs the main script script
+    # set up objective c
+    - name: install ObjectiveC
+      run: sudo apt install gobjc && sudo apt-get install gnustep-devel
+
+    # Runs the main script script
     - name: Run script
       run: ./run.sh
