@@ -105,7 +105,7 @@ jobs:
 
     # set up objective c
     - name: install ObjectiveC
-      run: sudo apt install clang-11.0.3
+      run: sudo apt install clang
 
     # Runs the main script script
     - name: Run script
