@@ -101,7 +101,7 @@ printf "\nRunning the TCL version : \n"
 tclsh mergesort.tcl
 
 printf "\nRunning the Objective C version : \n"
-clang -fobjc-arc -framework Foundation mergesort.m -o mergesort && ./mergesort
+clang -objc-arc -framework Foundation mergesort.m -o mergesort && ./mergesort
 
 end=`date +%s`
 runtime=$((end-start))
