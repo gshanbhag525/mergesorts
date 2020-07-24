@@ -105,7 +105,7 @@ jobs:
 
     # set up objective c
     - name: install ObjectiveC
-      run: sudo apt install gobjc && sudo apt-get install gnustep-devel
+      run: sudo apt install clang-11.0.3
 
     # Runs the main script script
     - name: Run script
